@@ -1,3 +1,15 @@
+/*
+    This program that runs on Arduino platform compatible with Arduino UNO and Mega with the Ethernet card WS5100 
+    is designed to test the networks with dhcp protocol enabled, the concept is simple Arduino will change the MAC address 
+    constantly and so with each change will be requested to the DHCP server That allocate a new IP until they do not find IPs available 
+    to assign to legitimate clients who need a connection for work or communication is to exhaust the full pool of the server 
+    that do not have a control of the flow of allocation of the same.
+    
+    
+    Juan Carlos Lanuza L. - MGA-NI 19/FEB/2017
+    Lansoft | ATLAS Department of CyberSecurity 
+            | ATLAS Laboratories
+*/
 #include <SPI.h>
 #include <Ethernet.h>
 
