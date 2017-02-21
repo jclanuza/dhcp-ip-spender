@@ -1,4 +1,6 @@
 /*
+    dhcp-ip-spender v1.0
+    ---------------------
     This program that runs on Arduino platform compatible with Arduino UNO and Mega with the Ethernet card WS5100 
     is designed to test the networks with dhcp protocol enabled, the concept is simple Arduino will change the MAC address 
     constantly and so with each change will be requested to the DHCP server That allocate a new IP until they do not find IPs available 
