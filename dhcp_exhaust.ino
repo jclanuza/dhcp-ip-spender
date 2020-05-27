@@ -9,8 +9,6 @@
     
     
     Juan Carlos Lanuza L. - MGA-NI 19/FEB/2017
-    Lansoft | ATLAS Department of CyberSecurity 
-            | ATLAS Laboratories
 */
 #include <SPI.h>
 #include <Ethernet.h>
